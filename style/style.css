@@ -134,3 +134,49 @@ border-radius: 16px;
 #card-colo-2{
     background-color: #FFFDF2;
 }
+
+.get-touch{
+    width: 1140px;
+    height: 400px;
+    margin: 88px auto;
+    border-radius: 8px;
+    background-image: url(../image/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.git-touch-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: white;
+}
+.git-touch-content h2{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.git-touch-content input, button{
+    padding: 16px 18px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+.git-touch-content{
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.git-touch-content input{
+    width: 400px;
+}
+
+#need-touch{
+   margin-top: 50px;
+}
